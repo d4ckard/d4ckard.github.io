@@ -5,10 +5,10 @@ share_notice: custom
 ---
 
 <div class="message">
-This post was originally inspired by <a href="https://two-wrongs.com/learning-some-logarithms.html">learning some logarithms</a> by kqr. Just like his post it's about the excitement of discovery, and I hope to present some of the knowledge that I have gathered in an approachable way. Some parts are quite math-heavy, but they are not meant to be a formally rigid study of the topics at hand. Rather their purpose is to be insightful and practical.
+This post was originally inspired by <a href="https://two-wrongs.com/learning-some-logarithms.html">learning some logarithms</a> by kqr. Just like his post it's about the excitement of discovery, and I hope to present some of the knowledge that I have gathered in an approachable way. Some parts are quite math-heavy, but they are not meant to be a formally rigid study of the topics at hand. Rather is their purpose to be insightful and practical.
 </div>
 
-I have become fascinated by the ability to calculate logarithmic functions in one's head. To me, logarithms have always felt like a black box that couldn't be conquered. They are a fundamental building block of mathematics, yet every time I saw a logarithmic equation, I was quick to grab my calculator instead of solving the equation by hand. Over the last half year, I have spent some time improving my understanding of logarithms and learning how to compute the results of logarithmic equations by hand. Here is how I did it.
+I have become fascinated by the ability to calculate logarithmic functions in one's head. To me, logarithms have always felt like a black box that couldn't be conquered. They are a fundamental building block of mathematics, yet every time I saw a logarithmic equation, I was quick to grab my calculator instead of solving the equation by hand. Over the last half year, I have spent some time improving my understanding of logarithms and learned how to compute the results of logarithmic equations by hand. Here is how I did it.
 
 # Why learn this?
 
@@ -109,7 +109,7 @@ $$log_b(b^{y \cdot c}) = y \cdot c = c \cdot log_b(x)\text{.}$$
 
 ## Change of basis
 
-This is the last concept we need to get started calculating logarithms by hand. The ability to change a logarithmic expression's base is very valuable to us, because it means that we only need to memorize a relatively set small of values for a single base. We're then able to convert between bases and thereby solve expressions in a plethora of bases.
+This is the last concept we need to get started calculating logarithms by hand. The ability to change a logarithmic expression's base is very valuable to us, because it means that we only need to memorize a relatively small set of values for a single base. We're then able to convert between bases and thereby solve expressions in a plethora of bases.
 
 $$log_b(x) = \frac{log_a(x)}{log_a(b)} ~~~~ \text{if} ~ a > 0$$
 
@@ -161,7 +161,7 @@ We can change the base of any logarithm into a base we know if we know the value
 
 $$log_{10}(80) = log_{10}(10 \cdot 8) = log_{10}(10) + log_{10}(8) \text{.}$$
 
-Depending on how hard you want to make it for yourself, you can also opt for different degrees of precision. As suggested by [kqr](https://two-wrongs.com/learning-some-logarithms.html), it's possible to get quite satisfactory results from only a single digit of precision. For completeness, I also added a higher-precision option for each value. It makes sense to memorize the higher-precision values for the logarithms that you'll just most often. This is why the base precision for $log_{10}(e)$ is slightly higher by default.
+Depending on how hard you want to make it for yourself, you can also opt for different degrees of precision. As suggested by [kqr](https://two-wrongs.com/learning-some-logarithms.html), it's possible to get quite satisfying results from only a single digit of precision. For completeness, I also added a higher-precision option for each value. It makes sense to memorize the higher-precision values for the logarithms that you'll just most often. This is why the base precision for $log_{10}(e)$ is slightly higher by default.
 
 
 <!-- Markdown table source (good for making edits):
@@ -328,7 +328,7 @@ Let's think: we need to break up $64$ into an expression made up of logarithms, 
 
 $$log_{10}(64) = log_{10}(8 \cdot 8) = log_{10}(8) + log_{10}(8) \approx 0.9 + 0.9 = 1.8\text{.}$$
 
-Just writing this, I am filled with a rush of excitement and awe. Let's check how close we got this time. $log_10(64) = 1.8062$ which means we were off by only $0.0062$! We won't get this close for all numbers and some expressions might be more difficult than this too, but to me, it's really staggering how easy this is.
+Just writing this, I am filled with a rush of excitement and awe. Let's check how close we got this time. $log_{10}(64) = 1.8062$ which means we were off by only $0.0062$! We won't get this close for all numbers and some expressions might be more difficult than this too, but to me, it's really staggering how easy this is.
 
 Above, I talked about the historic use of logarithms to speed up multiplications of large factors. Now we can use this technique too. [This answer](https://math.stackexchange.com/a/2296546) on Stack Exchange provides a good example of how one might do so. Using logarithms in this way as become somewhat obsolete now that we have so many computers, but if you are interested in how to do this, you should definitely give the answer a read.
 
